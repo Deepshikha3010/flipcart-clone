@@ -353,6 +353,14 @@ span.plus_icon img {
 #mainMenuBlock ul li:hover ._3ynUUz path {
     fill: #2874f0 !important;
 }
+
+.ban1 img{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    margin-bottom: -11px;
+}
+
 /*----dropdown mega menu ends here ------*/
 
 /*-----main menu block css ends here -----*/
