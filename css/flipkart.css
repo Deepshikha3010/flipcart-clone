@@ -156,6 +156,7 @@ body {
     width: 260px;
     margin: 7px 0;
     left: -76px;
+    z-index:1;
 }
 
 .dropdown .nav-item .nav-link {
@@ -198,7 +199,7 @@ ul>li:hover ul {
 .dropdown li {
     background-color: #fff;
     border-bottom: 1px solid #eee;
-    z-index: 1;
+   
 }
 
 .triangle {
@@ -258,7 +259,7 @@ span.plus_icon img {
     justify-content: space-between;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0px 14px;
 }
 
 #mainMenuBlock ul li {
@@ -270,6 +271,8 @@ span.plus_icon img {
     color: #212121;
     font-weight: 600;
     font-size: 14px;
+    padding: 12px 0;
+
 }
 
 #mainMenuBlock ul li a:hover {
@@ -290,13 +293,17 @@ span.plus_icon img {
 
 /*----dropdown mega menu starts here ----*/
 #MegaDropDownMenuBlock {
-    display: flex;
+    
     background: #fff;
-    height: 84%;
-    width: 1200px;
+    height: 79%;
+    width: 1220px;
     position: absolute;
     box-shadow: 0px 2px 3px 0px #ccc;
-    margin: 11px 0px
+    margin: 10px 0px;
+    position: absolute;
+    left: 75px;
+    display: none;
+    z-index: 9999;
 
 }
 
@@ -310,7 +317,7 @@ span.plus_icon img {
 }
 
 #MegaDropDownMenuBlock div:nth-child(even) {
-    background: #fdfbfb;
+    background: #f3f4f5;
 }
 
 .megaMenuDiv ul {
@@ -329,12 +336,26 @@ span.plus_icon img {
 ._1h5QLb a {
     font-weight: bold !important;
 }
+.nav-item{
+    position: relative;
+}
 
+#mainMenuBlock ul>li:hover #MegaDropDownMenuBlock {
+    display: flex;
+}
+
+#mainMenuBlock ul li:hover ._3ynUUz {
+    transform: rotate(90deg) !important;
+    -webkit-transform: rotate(90deg);
+
+}
+
+#mainMenuBlock ul li:hover ._3ynUUz path {
+    fill: #2874f0 !important;
+}
 /*----dropdown mega menu ends here ------*/
 
 /*-----main menu block css ends here -----*/
-
-
 
 
 /*@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
